@@ -4,8 +4,8 @@ intersection() {
 cylinder(r=72.7/2,h=8.9,center=true);
 cube([52.5,90,10],center=true);
 }
-translate([40.25,0,-6.5/2]) cube([40,41,6],center=true);
-translate([-40.25,0,-6.5/2]) cube([40,41,6],center=true);
+translate([40.25,0,-6.5/2]) cube([40,41,7],center=true);
+translate([-40.25,0,-6.5/2]) cube([40,41,7],center=true);
 //translate([-46,0,0]) cube([40,40,5],center=true);
 }
 }
